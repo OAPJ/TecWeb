@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios HTML - JS- PHP - MySQL Pag 5</title>
+	<meta charset="utf-8">
+	<script src="Scripts/Valida.js"></script>
+	<style type="text/css">
+	  .boton{
+	    text-decoration: none;
+	    padding: 10px;
+	    font-weight: 600;
+	    font-size: 15px;
+	    color: #ffffff;
+	    background-color: blue;
+	    border-radius: 6px;
+	  }
+
+	</style>
+</head>
+<body style="background-color: gray">
+	<br><br><br><br>
+	<form action="guardar.php" method="post">
+		<table width="50%" align="center">
+			<tr>
+				<td width="20%">Nombre: </td>
+				<td>
+					<input type="text" name="Nombre" id="Nombre">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Apellido Paterno:</td>
+				<td>
+					<input type="text" name="Apaterno" id="Apaterno">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Apellido Materno:</td>
+				<td>
+					<input type="text" name="Amaterno" id="Amaterno">
+				</td>
+			</tr>
+
+			<tr>
+				<td align="RIGHT">
+					<input type="submit" name="Registrar" class="boton">
+				</td>
+				<td>
+					<input type="reset" name="Limpiar" class="boton">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

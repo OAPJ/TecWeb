@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catalogo</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1 align="center">CATÁLOGO DE ARTE</h1>
+	<p><b>Introduce los terminos de búsqueda:</b></p>
+	<form>
+		<table align="center">
+			<tr>
+				<td width="10%" align="center" colspan="2"><b>OBRA</b></td>
+				<td align="center"><b>Tipo</b></td>
+				<td align="RIGHT"><b>Disponibilidad</b></td>
+				<td align="RIGHT"><b>Estilo</b></td>
+			</tr>
+			<tr>
+				<td align="RIGHT">Titulo</td>
+				<td>
+					<input type="text" name="Titulo" id="Titulo">
+				</td>
+
+				<td >
+						<input type="radio" name="gender" value="Escultura">Escultura
+						<br>
+						<input type="radio" name="gender" value="Arquitectura">Arquitectura
+						<br>
+						<input type="radio" name="gender" value="Pintura">Pintura
+				</td>
+
+				<td>
+					<input type="radio" name="Disponibilidad" value="Disponibilidad">Mueso / Acceso público
+					<br>
+					<input type="radio" name="Disponibilidad" value="Disponibilidad">Colección privada
+
+				</td>
+
+				<td align="RIGHT">
+					<select name="Estilo" id="Estilo">
+						<option value="Clásico">Clásico</option>
+						<option value="Romantico">Romantico</option>
+						<option value="Terror">Terror</option>
+					</select>
+				</td>
+
+			</tr>
+			<tr>
+				<td align="RIGHT">Autor</td>
+				<td>
+					<input type="text" name="Autor" id="Autor">
+					<br>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+		<table>
+			<tr>
+				<td colspan="2">
+					Hágamos saber sus sugerencias:
+				</td>
+				<td colspan="5">
+					<textarea name="sugerencias" rows="3" cols="40" placeholder="Me gustaría indicar que..."></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="RIGHT">
+					<input type="submit" name="Buscar" id="Buscar" value="Buscar">
+				</td>
+			</tr>
+		</table>
+		
+
+	</form>
+</body>
+</html>

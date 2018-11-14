@@ -1,0 +1,93 @@
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #119978;
+    box-shadow: 2px 2px 3px #222222;
+    padding: 2px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+.contenido  {
+    width: 100%;
+}
+
+.registro {
+    background-color: #f4f0f0;
+    text-align: center;
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    margin: 5px auto;
+    width: 80%;
+    box-shadow: 2px 2px 3px #222222;
+}
+
+.registro table {
+    margin: 0 auto;
+    border-spacing: 15px;
+}
+
+.registro table td {
+    text-align: left;
+}
+
+#apaterno, #amaterno, #nombre, #fechaNac, #edad, #telefono {
+    width: 260px;
+    height: 18px;
+    color: #23898b;
+    padding: 3px;
+    outline-width: thin;
+    font-size: 16px;
+}
+
+.botonera {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.botonera > input {
+    margin: 0 25px;
+    font-size: 1.1em;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 1px #3c3c3c;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.botonera > input:hover {
+    background-color: #1d1d1d;
+    color: #11cfd2;
+    box-shadow: 2px 2px 1px #11cfd2;
+}
+
+#resultados, #resultados th, #resultados td {
+    border: none;
+}
+
+#resultados {
+    width: 80%;
+    margin: 15px auto;
+}
+
+#resultados th {
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+#resultados th, #resultados td {
+    padding: 6px;
+}
+
+#resultados tr:nth-child(2n+1) {
+    background-color: #119978;
+    color: #fff;
+}
+
+#alerta {
+    color: #f03a2f;
+    font-weight: lighter;
+}

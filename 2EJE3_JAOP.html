@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 3</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Ejemplos de tablas</h1>
+	<h4>Tabla básica de 3x2</h4>
+	<table border="1xp">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+	</table>
+	<hr>
+
+	<h4>Dos ejemplos de línea expandida </h4>
+	<table border="1xp">
+		<tr>
+			<td>Item 1</td>
+			<td rowspan="2">Item 2</td>
+			<td>Item 3</td>
+		</tr>
+		<tr>
+			<td>Item 4</td>
+			<td>Item 5</td>
+		</tr>
+	</table>
+
+	<table border="1xp">
+		<br>
+		<tr>
+			<td rowspan="2">Item 1</td>
+			<td>Item 2</td>
+			<td>Item 3</td>
+			<td>Item 4</td>
+		</tr>
+
+		<tr>
+			<td>Item 5</td>
+			<td>Item 6</td>
+			<td>Item 7</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Ejemplo de columna expandida</h4>
+	<table border="1xp">
+		<tr>
+			<td>Item 1</td>
+			<td colspan="2">Item 2</td>
+		</tr>
+		
+		<tr>
+			<td>Item 3</td>
+			<td>Item 4</td>
+			<td>Item 5</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Tabla con cabeceras</h4>
+	<table border="1xp">
+		<tr>
+			<th>Head1</th>
+			<th>Head2</th>
+			<th>Head3</th>
+		</tr>
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Conbinacion de columna expandida y cabecera</h4>
+	<table border="1xp">
+		<tr>
+			<th colspan="2">Head 1</th>
+			<th colspan="2">Head 2</th>
+		</tr>
+		<tr>
+			<th>Head 3</th>
+			<th>Head 4</th>
+			<th>Head 5</th>
+			<th>Head 6</th>
+		</tr>
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+			<td>D</td>
+		</tr>
+		<tr>
+			<td>E</td>
+			<td>F</td>
+			<td>G</td>
+			<td>H</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Cabeceras laterales</h4>
+	<table border="1xp">
+		<tr>
+			<th>Head1</th>
+			<td>Item 1</td>
+			<td>Item 2</td>
+			<td>Item 3</td>
+		</tr>
+		<tr>
+			<th>Head2</th>
+			<td>Item 4</td>
+			<td>Item 5</td>
+			<td>Item 6</td>
+		</tr>
+		<tr>
+			<th>Head3</th>
+			<td>Item 7</td>
+			<td>Item 8</td>
+			<td>Item 9</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Combinación de cabeceras laterales y líneales expandidas</h4>
+	<table border="1xp">
+		<tr>
+			<th rowspan="2">Head1</th>
+			<td>Item 1</td>
+			<td>Item 2</td>
+			<td>Item 3</td>
+			<td>Item 4</td>
+		</tr>
+		<tr>
+			<td>Item 5</td>
+			<td>Item 6</td>
+			<td>Item 7</td>
+			<td>Item 8</td>
+		</tr>
+		<tr>
+			<th>Head2</th>
+			<td>Item 9</td>
+			<td>Item 10</td>
+			<td>Item 3</td>
+			<td>Item 11</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Combinación de cabeceras superiores y laterales. Tabla centrada. Contenido cenrado. Titulo al pie.</h4>
+	<center>
+	<table border="1xp">
+		<caption align="bottom">Resumen de tablas</caption>
+		<tr align="center">
+			<td></td>
+			<th>Table</th>
+			<th>TR</th>
+			<th>TD</th>
+			<th>TH</th>
+			<th>Caption</th>
+		</tr>
+		<tr align="center">
+			<th>BORDER</th>
+			<td>X</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr align="center">
+			<th>ROWSPAN</th>
+			<td>-</td>
+			<td>-</td>
+			<td>X</td>
+			<td>X</td>
+			<td>-</td>
+		</tr>
+		<tr align="center">
+			<th>COLSPAN</th>
+			<td>-</td>
+			<td>-</td>
+			<td>X</td>
+			<td>X</td>
+			<td>-</td>
+		</tr>
+		<tr align="center">
+			<th>ALIGN</th>
+			<td>-</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr align="center">
+			<th>VALIGN</th>
+			<td>-</td>
+			<td>-</td>
+			<td>X</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr align="center">
+			<th>WIDTH</th>
+			<td>X</td>
+			<td>-</td>
+			<td>X</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr align="center">
+			<th>HEIGTH</th>
+			<td>X</td>
+			<td>-</td>
+			<td>X</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr align="center">
+			<th>CELLPADDING</th>
+			<td>X</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr align="center">
+			<th>CELLSPACING</th>
+			<td>X</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+	</table>
+	</center>
+	<hr>
+
+	<h4>Ejemplo con todos los elementos y parámetros</h4>
+	<table border="1xp">
+		<tr>
+			<td></td>
+			<td rowspan="2"></td>
+			<th colspan="2">Media</th>
+		</tr>
+		<tr>
+			<td></td>
+			<th>Altura</th>
+			<th>Peso</th>
+		</tr>
+		<tr>
+			<th rowspan="2">Sexo</th>
+			<th>Hombre</th>
+			<td>1.9</td>
+			<td>85</td>
+		</tr>
+		<tr>
+			<th>Mujer</th>
+			<td>1.7</td>
+			<td>60</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Otro ejemplo de línea y columna expandidos</h4>
+	<table border="1xp">
+		<tr>
+			<td rowspan="2">A</td>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td colspan="2">D</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h2 align="center">Ajustando márgenes y bordes</h2>
+	<h4>Tabla sin bordes</h4>
+	<table>
+		<tr>
+			<td>Item 1</td>
+			<td rowspan="2">Item 2</td>
+			<td>Item 3</td>
+		</tr>
+		<tr>
+			<td>Item 4</td>
+			<td>Item 5</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Tabla con borde de 10 puntos</h4>
+	<table border="10">
+		<tr>
+			<td>Item 1</td>
+			<td>Item 2</td>
+		</tr>
+		<tr>
+			<td>Item 3</td>
+			<td>Item 4</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Dimensionado de celdas</h4>
+	<table border="1" cellspacing="0xp" cellpadding="10xp">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+	<hr>
+
+	<table border="1" cellspacing="10xp" cellpadding="0xp">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+	<hr>
+
+	<table border="1" cellspacing="10xp" cellpadding="5xp">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+	<hr>
+
+	<table border="5" cellspacing="10xp" cellpadding="5xp">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h2 align="center">Alineación, títulos y subtablas</h2>
+	<h4>Líneas multiples en una tabla</h4>
+	<table border="1">
+		<tr>
+			<th>Enero</th>
+			<th>Febrero</th>
+			<th>Marzo</th>
+		</tr>
+		<tr>
+			<td>Celda 1</td>
+			<td>Celda 2</td>
+			<td>otra celda<br> Celda 3</td>
+		</tr>
+		<tr>
+			<td>Celda 4</td>
+			<td>y esta<br> es es la celda 5</td>
+			<td>Celda 6</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Alineando horizontal del contenido de las celdas. ALIGN=LEFT | RIGHT | CENTER</h4>
+	<p>Se puede aplicar individualmente a una celda o a toda la línea</p>
+	<table border="1">
+		<tr align="center">
+			<th>Enero</th>
+			<th>Febrero</th>
+			<th>Marxo</th>
+		</tr>
+		<tr align="center">
+			<td>Todas alineadas al centro</td>
+			<td>Celda 2</td>
+			<td>Otra celda<br> Celda 3</td>
+		</tr>
+		<tr>
+			<td align="RIGHT">Alineado a la derecha</td>
+			<td align="center">Alineado al centro</td>
+			<td align="LEFT"> Por defecto <br>Alineado a la Izquierda</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Alienado vertical del contenido de las celdas. VALIGN=TOP | BOTTOM | MIDDLE</h4>
+	<p>Se puede aplicar individualmente a una celda o a toda la columna</p>
+	<table border="1">
+		<tr>
+			<th>Enero</th>
+			<th>Febrero</th>
+			<th>Marzo</th>
+		</tr>
+		<tr valign="TOP">
+			<td>Todas alineadas arriba</td>
+			<td>Esta es la <br>Celda 2</td>
+			<td>Celda 3</td>
+		</tr>
+		<tr>
+			<td valign="TOP">Alienado arriba</td>
+			<td valign="BOTTOM">Alineado abajo</td>
+			<td valign="MIDDLE">Por defecto <br>Alineado al centro</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Titulando las tablas. CAPTION=TOP | BOTTOM</h4>
+	<table border="1">
+		<caption align="TOP">Titulo arriba</caption>
+		<tr>
+			<th>Enero</th>
+			<th>Febrero</th>
+			<th>Marzo</th>
+		</tr>
+		<tr>
+			<td>Celda 1</td>
+			<td>Celda 2</td>
+			<td>Celda 3</td>
+		</tr>
+	</table>
+	<br>
+	<table border="1">
+		<caption align="BOTTOM">Titulo abajo</caption>
+		<tr>
+			<th>Enero</th>
+			<th>Febrero</th>
+			<th>Marzo</th>
+		</tr>
+		<tr>
+			<td>Celda 1</td>
+			<td>Celda 2</td>
+			<td>Celda 3</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h4>Anidando tablas. La tabla ABCD dentro de la tabla 12345</h4>
+	<table border="1">
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3 <br><table border="1">
+						<tr>
+							<td>A</td>
+							<td>B</td>
+						</tr>
+						<tr>
+							<td>C</td>
+							<td>D</td>
+						</tr>
+					</table>
+			</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</table>
+	<br>
+
+	<h2 align="CENTER">Longitud horizontal de las tablas</h2>
+	<h4>Tabla que ocupa el 50% de la pantalla, y cullas celdas están dimensionadas al 50% cada una respecto a la longitud total de la tabla</h4>
+	<table border="1", width="50%">
+		<tr>
+			<td>Width=50%</td>
+			<td>Width=50%</td>
+		</tr>
+		<tr>
+			<td>Celda 3</td>
+			<td>Celda 4</td>
+		</tr>
+	</table>
+
+	<h4>Tabla dimensionada al 50% de la pantalla, celdas sin dimensionar. Obsévese que se alargan más de lo que lo harían sin forzar la longitud de la tabla</h4>
+	<table border="1" width="50%">
+		<tr>
+			<td>Celda 1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Celda 3</td>
+			<td>4</td>
+		</tr>
+	</table>
+
+	<h4>El mismo efecto anterior, pero con la tabla dimensionada al 100%</h4>
+	<table border="1" width="100%">
+		<tr>
+			<td>WIDTH=100%</td>
+			<td>Celda 2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Celda 4</td>
+		</tr>
+	</table>
+	<br>
+
+	<h4>Centrado de una tabla en la página</h4>
+	<center>
+	<table border="1" width="50%">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+	</center>
+	<hr>
+
+	<h4>Tabla forzada al 50 % de la página, conteniendo otra tabla anidada en una de sus celdas. La segunda tabla está forzada a ocupar el 100 % de la celda receptora</h4>
+	<table border="1" width="50%">
+		<tr>
+			<td>Item 1</td>
+			<td>Item 2</td>
+		</tr>
+		<tr>
+			<td>
+				<table border="1" width="100%">
+					<tr>
+						<td>Item A</td>
+						<td>Item B</td>
+					</tr>
+				</table>
+			</td>
+			<td>Item 4</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h2 align="center">Longitud vertical de las tablas</h2>
+	<h4>Tabla que ocupa el 50 % horizontal de la pantalla, y el 25 % vertical. HEIGHT=25%</h4>
+	<table border="1" width="50%" height="25%">
+		<tr>
+			<td>HEIGHT=25%</td>
+			<td>Item 2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+	</table>
+	<br>
+
+	<h2 align="center">Fondos de colores o gráficos en las tablas</h2>
+	<h4>Una tabla de cuatro celdas. Cada una de un color.</h4>
+	<table border="1">
+		<tr>
+			<td bgcolor="RED">Texto ROJO</td>
+			<td bgcolor="green">Texto VERDE</td>
+		</tr>
+		<tr>
+			<td bgcolor="blue">Texto AZUL</td>
+			<td bgcolor="YELLOW">Texto AMARILLO</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h2 align="center">Bordes de colores en las tablas</h2>
+	<p>Se puede cambiar el color de los bordes de una tabla, aunque este atributo no funciona igual en todos los navegadores, ya que en el IE el color afecta a todas las líneas de la tabla, y en Mozilla solamente a los bordes exteriores. Por ejemplo: </p>
+	<table border="2", bordercolor="RED">
+		<tr>
+			<td>Ejemplo de bordes</td>
+			<td>de color rojo</td>
+		</tr>
+		<tr>
+			<td>Ejemplo de bordes</td>
+			<td>de color rojo</td>
+		</tr>
+	</table>
+	<hr>
+</body>
+</html>

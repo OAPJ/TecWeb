@@ -1,0 +1,45 @@
+div{
+  width: 75%;
+  margin: 10px auto;
+  border-style: solid;
+  border-width: 1px;
+  padding: 15px;
+  font-family: 'Arial';
+  font-size: 1em;
+
+}
+
+#divexito{
+  border-color: #7ec722;
+  background-color: #a2ec76;
+  color: #7ec722;
+}
+
+#divatencion{
+  border-color: rgb(67,187,227);
+  background-color: rgb(231,247,252);
+  color: rgb(67,187,227);
+}
+
+#divalerta{
+  border-color: rgb(228,151,95);
+  background-color: rgb(254,249,240);
+  color: rgb(228,151,95);
+}
+
+#diverror{
+  border-color: rgb(231,59,146);
+  background-color: rgb(253,242,243);
+  color: rgb(231,59,146);
+}
+
+#divmateriagris
+{
+  border-color: rgb(129,144,95);
+  background-color: rgb(211,211,211);
+  color: rgb(129,144,950);
+}
+
+.textoexito{
+  font-weight: bold;
+}

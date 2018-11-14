@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Ejercicio 4</title>
+	<script src="Scripts/Galeria.js"></script>
+
+	<style type="text/css">
+	  .boton{
+	    text-decoration: none;
+	    padding: 10px;
+	    font-weight: 600;
+	    font-size: 15px;
+	    color: #ffffff;
+	    background-color: gray;
+	    border-radius: 6px;
+
+	    
+	  }
+	</style>
+
+</head>
+<body style="background-color: #080461;">
+	<br><br><br><br>
+	
+	<form>
+		<table align="center">
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+
+			<tr>
+				<td colspan="5">
+					<img src="Imagenes/Im1.jpg" alt="galxia1" title="galxia1" width="500xp" id="Imagen">
+				</td>
+			</tr>
+
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+
+			<tr>
+				<td width="20%" align="center">
+					<input class="boton" type="button" value="|<" onclick="Primera();" style="width: 90%;"> 
+				</td>
+				<td width="20%" align="center">
+					<input class="boton" type="button" value="<" onclick="Anterior();" style="width: 90%">
+				</td>
+
+				<td width="20%" align="center">
+					<input class="boton" type="button" value="T" onclick="Tiempo2();" style="width: 90%">
+				</td>
+
+				<td width="20%" align="center">
+					<input class="boton" type="button" value=">" onclick="Siguiente();" style="width: 90%">
+				</td>
+
+				<td width="20%" align="center">
+					<input class="boton" type="button" value=">|" onclick="Ultima();" style="width: 90%">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

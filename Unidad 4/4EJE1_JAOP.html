@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Primera Página con JavaScript</title>
+	<!--Esto no se hace, solo si se requiere-->
+	<script type="text/javascript">
+		function miPrimerFuncion()
+		{
+			alert("Mi Primer Funcion");
+		}
+	</script>
+
+
+
+	<script src="Scripts/miScript.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+	<!--Esto no se hace, solo si se requiere-->
+	<script type="text/javascript">
+		function miTercerFuncion()
+		{
+			alert("Mi Tercer Funcion");
+		}
+	</script>
+
+
+	<form>
+		<input type="button" onclick="miPrimerFuncion();" value="Clik Me">
+
+		<input type="button" value="Clik Me" onclick="miSegundaFuncion();">
+
+		<input type="button" value="Clik Me" onclick="miTercerFuncion();">
+	</form>
+</body>
+</html>
